@@ -1,0 +1,44 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Then add additional custom code here
+$uno: #064789;
+$dos: #427AA1;
+$tres: #ebf2fa;
+
+.navbar {
+    background-color: $uno !important;
+
+    .container-fluid {
+        .navbar-brand {
+            color: $cyan !important;
+        }
+    }
+}
+
+.nav-link {
+    &:hover {
+        color: $blue !important;
+    }
+}
+
+.card-header {
+    background-color: $dos !important;
+
+    .card-title {
+        color: $tres;
+    }
+}
+
+.card-footer {
+    .btn-info {
+        background-color: $dos;
+        border-color: $dos !important;
+        color: $tres;
+
+        &:hover {
+
+            background-color: #1e5e8b;
+            color: $tres;
+        }
+    }
+}
